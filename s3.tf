@@ -6,7 +6,7 @@ terraform {
     }
   }
 
-  required_version = ">= 0.14.0, < 0.15.0"
+  required_version = ">= 1.2.3, < 1.3.0"
   backend "s3" {
     bucket = "my-kaddu671"
     key    = "terraform.tfstate"
